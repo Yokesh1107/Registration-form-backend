@@ -4,6 +4,7 @@
   "description": "",
   "main": "register.js",
   "scripts": {
+    "build":"npm i",
     "dev": "nodemon register.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
