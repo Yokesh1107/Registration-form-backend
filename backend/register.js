@@ -84,4 +84,4 @@ app.post('/register', async (req, res) => {
     }
 
 })
-mongoose.connect('mongodb+srv://Yokesh:Yokesh@cluster0.hvswkm0.mongodb.net/registration?retryWrites=true&w=majority', console.log("Database connected"))
+mongoose.connect(process.env.MONGO_URL, console.log("Database connected"))
