@@ -8,7 +8,7 @@ const cors = require('cors')
 app.use(express.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json());
-// app.use(express.static('public'));
+app.use(express.static('backend'));
 app.use(cors({ credentials: true, origin: 'http://127.0.0.1:5500' }))
 const Register = require('./registerModel')
 const nodemailer = require('nodemailer');
