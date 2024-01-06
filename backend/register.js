@@ -35,11 +35,11 @@ app.post('/register', async (req, res) => {
             dept: dept,
             year: year,
             mail: mail,
-            event1: event1,
-            event2: event2,
-            event3: event3,
-            event4: event4,
-            event5: event5,
+            Scriptorias_secret: event1,
+            Code_Quasar: event2,
+            Mensa_Mingle: event3,
+            Croma_meister: event4,
+            Suprise_event: event5,
             phone: phone,
         })
         const data =
