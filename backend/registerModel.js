@@ -33,19 +33,19 @@ const registerSchema = new Schema({
         type: String,
         required: true,
     },
-    event1: {
+    Scriptorias_secret: {
         type: String,
     },
-    event2: {
+    Code_Quasar: {
         type: String,
     },
-    event3: {
+    Mensa_Mingle: {
         type: String,
     },
-    event4: {
+    Croma_meister: {
         type: String,
     },
-    event5: {
+    Surprise_event: {
         type: String,
     },
     phone: {
