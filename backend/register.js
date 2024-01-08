@@ -9,7 +9,7 @@ app.use(express.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json());
 app.use(express.static('backend'));
-app.use(cors({ credentials: true, origin: 'https://testsite-orwk.onrender.com' }))
+app.use(cors({ credentials: true, origin: 'https://techcrescenza2k24.onrender.com' }))
 const Register = require('./registerModel')
 const nodemailer = require('nodemailer');
 var transporter = nodemailer.createTransport({
