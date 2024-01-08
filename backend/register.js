@@ -39,7 +39,7 @@ app.post('/register', async (req, res) => {
             Code_Quasar: event2,
             Mensa_Mingle: event3,
             Croma_meister: event4,
-            Suprise_event: event5,
+            Surprise_event: event5,
             phone: phone,
         })
         const data =
