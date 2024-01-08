@@ -34,19 +34,19 @@ const registerSchema = new Schema({
         required: true,
     },
     event1: {
-        type: Boolean,
+        type: String,
     },
     event2: {
-        type: Boolean,
+        type: String,
     },
     event3: {
-        type: Boolean,
+        type: String,
     },
     event4: {
-        type: Boolean,
+        type: String,
     },
     event5: {
-        type: Boolean,
+        type: String,
     },
     phone: {
         type: Number,
