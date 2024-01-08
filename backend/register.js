@@ -58,7 +58,7 @@ app.post('/register', async (req, res) => {
         let img = await QRCode.toDataURL((data));
         const user = await newRegister.save()
         var mailOptions = {
-            from: 'uit20227@rmd.ac.in',
+            from: 'Techcrescenza2k24',
             to: mail,
             subject: 'Confirmation Mail',
             text: 'Thank you for registering\n Here is your QR code',
