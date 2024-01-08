@@ -58,12 +58,12 @@ app.post('/register', async (req, res) => {
         let img = await QRCode.toDataURL((data));
         const user = await newRegister.save()
         var mailOptions = {
-            from: 'techcrescenza2k24@gmail.com',
+            from: 'uit20227@rmd.ac.in',
             to: mail,
             subject: 'Confirmation Mail',
             text: 'Thank you for registering\n Here is your QR code',
             attachDataUrls: true,
-            html: 'Thank you for registering </br> Here is your QR code <img src="' + img + '">'
+            html: 'Thank you for registering </br> <b>Here is your QR code</b></br> <img src="' + img + '"></br> Have a nice day☺️'
         };
         transporter.sendMail(mailOptions, function (error, info) {
             if (error) {
