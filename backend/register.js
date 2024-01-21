@@ -63,7 +63,7 @@ app.post('/register', async (req, res) => {
             subject: 'Confirmation Mail',
             text: 'Thank you for registering\n Here is your QR code',
             attachDataUrls: true,
-            html: 'Thank you for registering <br> <b>Here is your QR code</b><br> <img src="' + img + '"><br> Have a nice day☺️<br><b>IMPORTANT!</b><br>Kindly be in the campus before <b><i>9AM</i></b><br>Late entries are not entertained<br>Do not indulge in any mischievous activity<br> Verify your registration by showing your college id at the department entrance<br>'
+            html: 'Thank you for registering <br> <b>Here is your QR code</b><br> <img src="' + img + '"><br> Have a nice day☺️<br><b>IMPORTANT!</b><br>Kindly be in the campus before <b><i>9AM</i></b><br>Late entries are not entertained<br>Do not indulge in any mischievous activity<br> Verify your registration by showing your college id at the department entrance<br>For coding event kindly sign up at <a href="https://www.hackerrank.com/code-quasar-1">Entry event</a><br>'
         };
         transporter.sendMail(mailOptions, function (error, info) {
             if (error) {
